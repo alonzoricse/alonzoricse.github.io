@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+@font-face{
+        font-family: "letra1";
+        src: url("letra1.ttf") format("truetype");
+
+}
+h1 {
+	font-size:160px;
+	font-family: "letra1";
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 100px;
+	padding: 10px;
+}
+p {
+        font-size:30px;
+        font-family: georgia;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 120px;
+        padding: 10px;
+}
+body {
+	background-image: url(multimedia/fondo.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.menuH {
+	overflow: hiddem;
+}
+.menuH a{
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        float: left;
+        width: 25%;
+        text-align: center;
+        padding: 10px;
+	display: block;
+	font-family: cursive;
+        font-size: 1.5em;
+        font-style: italic;
+}
+.menuH a:hover{
+        background-color: white;
+        color: black;
+}

@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+}
+body {
+        background-image: url(multimedia/fondo.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+.menuH {
+	overflow: hidden;
+}
+.menuH a{
+	background-color: black; 
+	color: white;
+	text-decoration: none;
+	float: left;
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+	display: block;
+	font-family: cursive;
+	font-size: 1.5em;
+	font-style: italic;
+}
+.menuH a:hover{
+	background-color:white;
+	color: black;
+}
+@font-face{
+	font-family: "letra1";
+	src: url("letra1.ttf") format("truetype");
+	
+}
+p {	
+	padding-top: 70px;
+	padding-right: 50px;
+	padding-left: 50px;
+	font-family: georgia;
+	color: white;;
+	font-size: 2em;
+}
